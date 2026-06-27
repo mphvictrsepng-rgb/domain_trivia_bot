@@ -1,7 +1,7 @@
 console.log('Hello! I am your radiology fun fact guide!');
-let botName = 'Hearty';
-let botLocation = 'Morton & Partners Radiologists';
-let botSpeciality = 'CT';                        // In time, i want to generalise it to cover more modalities
+const botName = 'Hearty';
+const botLocation = 'Morton & Partners Radiologists';
+const botSpeciality = 'CT';                        // In time, i want to generalise it to cover more modalities
 
 console.log('My name is ' + botName + ', your CT buddy. ' + "I'm from " + botLocation + '.');
 console.log('My favorite imaging modality is ' + botSpeciality + '.');
